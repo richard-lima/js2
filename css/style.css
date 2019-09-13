@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.menu-hamburguer{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-around;
+    width: 30px;
+    margin: 10px;
+
+}
+nav{
+    background-color: coral;
+    display: none;
+    justify-content: space-around;
+}
+span{
+    background-color: whitesmoke;
+    display: block;
+    height: 2px;
+    width: 30px;
+}
+
+.visivel{
+    display: block;
+}
